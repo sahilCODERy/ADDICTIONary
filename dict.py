@@ -11,7 +11,7 @@ def get(word):
     res=index[word]
     for i,val in enumerate(res):
         print("{}: {}".format(i+1, val))
-    print("\nGive again")    
+    print("\nGive me a word again")    
     
 print("Give me a word, I'll find you its Meaning; To get random meaning say 'Im Bored'")
 print("To Stop say 'Enough Codery'")    
